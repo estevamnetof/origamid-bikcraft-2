@@ -1,15 +1,26 @@
 .bicicleta {
     max-width: 1200px;
+    height: 350px;
     display: flex;
     padding: 40px 20px;
     margin: 0 auto;
     justify-content: center;
-    background: #ffffff;
+    position: relative;
+}
+
+.bicicleta-detalhe {
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 65px;
+    right: 330px;
 }
 
 .bicicleta-descricao {
     padding: 30px;
     font-size: 1.2rem;
+    background: #ffffff;
 }
 
 .bicicleta-titulo {
@@ -23,13 +34,47 @@
 .bicicleta-paragrafo {
     display: flex;
     font-size: 1.2rem;
-    padding-left: 25px;
     padding-bottom: 20px;
-    max-width: 41ch;
-    justify-items: right;
+    max-width: 37ch;
+    text-align: right;
 }
 
 .bicicleta-imagem {
     width: 350px;
     height: 250px;
+}
+
+.bicicleta-btn {
+    background: #e21;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    float: right;
+}
+
+/* Vantagens */
+
+.vantagens {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.vantagens-titulo {
+    font-size: 4rem;
+    text-transform: uppercase;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.vantagens-caracteristicas {
+    background: #ffffff;
 }
