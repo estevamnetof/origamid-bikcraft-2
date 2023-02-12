@@ -1,0 +1,35 @@
+.bicicleta {
+    max-width: 1200px;
+    display: flex;
+    padding: 40px 20px;
+    margin: 0 auto;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.bicicleta-descricao {
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+.bicicleta-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.bicicleta-paragrafo {
+    display: flex;
+    font-size: 1.2rem;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    max-width: 41ch;
+    justify-items: right;
+}
+
+.bicicleta-imagem {
+    width: 350px;
+    height: 250px;
+}
